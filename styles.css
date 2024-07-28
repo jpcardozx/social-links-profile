@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -20,7 +20,8 @@ body {
     flex: 1 0 0;
     border-radius: 12px;
     background: #1f1f1f;
-
+    max-width: auto;
+    flex: 0 1 auto
 }
 
 .profile-pic {
